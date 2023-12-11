@@ -16,9 +16,6 @@ class TesdaRegulationPDF(Serializable):
     cleaned: Optional[dict]
     summary: Optional[dict]
 
-    class Config:
-        arbitrary_types_allowed = True
-
     def __repr__(self) -> str:
         return (f"TesdaRegulationPDF(Name:{self.name}, Length: {len(self.documents)} documents, TOC page: {self.toc_page}, "
                 f"Core pages: {self.core_pages}, Competency Map page: {self.competency_map_pages}, "
