@@ -1,0 +1,127 @@
+[
+    {
+        "sector": "Agriculture, Forestry and Fishery",
+        "courses": [
+            "Agricultural Crops Production NC I",
+            "Agricultural Crops Production NC II",
+            "Agricultural Crops Production NC III",
+            "Agroentrepreneurship NC III",
+            "Agroentrepreneurship NC IV",
+            "Animal Production (Poultry-Chicken) NC II",
+            "Animal Production (Ruminants) NC II",
+            "Animal Production (Swine) NC II",
+            "Artificial Insemination (Swine) NC II",
+            "Grains Production NC II",
+            "Organic Agriculture Production NC II",
+            "Rice Machinery Operations NC II"
+        ]
+    },
+    {
+        "sector": "Automotive and Land Transportation",
+        "courses": [
+            "Automotive Servicing NC I",
+            "Automotive Servicing NC II",
+            "Driving (Articulated Vehicle) NC III",
+            "Driving NC II",
+            "Driving (Passenger BusStraight Truck) NC III",
+            "MotorcycleSmall Engine Servicing NC II"
+        ]
+    },
+    {
+        "sector": "Construction",
+        "courses": [
+            "Carpentry NC II",
+            "Construction Painting NC II",
+            "HEO (Backhoe Loader) NC II",
+            "HEO (Forklift) NC II",
+            "HEO (Hydraulic Excavator) NC II",
+            "HEO (Rigid On-Highway Dump Truck) NC II",
+            "HEO (Rough Terrain Crane) NC II",
+            "HEO (Truck Mounted Crane) NC II",
+            "Masonry NC I",
+            "Masonry NC II",
+            "PV Systems Installation NC II",
+            "Plumbing NC II",
+            "Scaffolding Works (Supported Type Scaffold) NC II",
+            "Technical Drafting NC II",
+            "Tile Setting NC II"
+        ]
+    },
+    {
+        "sector": "Electrical and Electronics",
+        "courses": [
+            "Computer Systems Servicing NC II",
+            "Electrical Installation and Maintenance NC II",
+            "Electrical Installation and Maintenance NC III",
+            "Electronics Products Assembly and Servicing NC II"
+        ]
+    },
+    {
+        "sector": "Garments",
+        "courses": [
+            "Dressmaking NC II",
+            "Tailoring NC II"
+        ]
+    },
+    {
+        "sector": "Heating, Ventilation, Airconditioning and Refrigeration",
+        "courses": [
+            "RAC Servicing (DomRAC) NC II"
+        ]
+    },
+    {
+        "sector": "Human Health / Health Care",
+        "courses": [
+            "Caregiving NC II",
+            "Health Care Services NC II",
+            "Hilot (Wellness Massage) NC II",
+            "Massage Therapy NC II"
+        ]
+    },
+    {
+        "sector": "Maritime",
+        "courses": [
+            "Ship's Catering Services NC I"
+        ]
+    },
+    {
+        "sector": "Metals and Engineering",
+        "courses": [
+            "Flux Cored Arc Welding (FCAW) NC II",
+            "Gas Tungsten Arc Welding (GTAW) NC II",
+            "Shielded Metal Arc Welding (SMAW) NC I",
+            "Shielded Metal Arc Welding (SMAW) NC II",
+            "Shielded Metal Arc Welding (SMAW) NC III"
+        ]
+    },
+    {
+        "sector": "Processed Food & Beverages",
+        "courses": [
+            "Food Processing NC II",
+            "Slaughtering Operations (Swine) NC II"
+        ]
+    },
+    {
+        "sector": "Social, Community Development and Other Services",
+        "courses": [
+            "Beauty Care NC II",
+            "Beauty Care Services (Nail Care) NC II",
+            "Bookkeeping NC III",
+            "Domestic Work NC II",
+            "Hairdressing NC II"
+        ]
+    },
+    {
+        "sector": "Tourism (Hotel and Restaurant)",
+        "courses": [
+            "Barista NC II",
+            "Bartending NC II",
+            "Bread and Pastry Production NC II",
+            "Cookery NC II",
+            "Events Management Services NC III",
+            "Food and Beverage Services NC II",
+            "Housekeeping NC II",
+            "Housekeeping NC III"
+        ]
+    }
+]
