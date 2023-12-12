@@ -10,7 +10,7 @@ from rag_document import RagDocument
 load_dotenv()
 pp = PrettyPrinter(indent=4)
 all_collection = 'all_docs'
-chroma_client = chromadb.PersistentClient()
+chroma_client = chromadb.Client()
 cohere_ef = embedding_functions.CohereEmbeddingFunction(api_key=st.secrets['COHERE_API_KEY'],
                                                         model_name="embed-english-v3.0")
 
