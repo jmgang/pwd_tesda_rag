@@ -102,6 +102,15 @@ def show_pwd_page():
                 with st.expander(similar_course['name']):
                     st.write(similar_course['advisor_response'])
 
+            st.write("Is the recommended course tailored to your interests?")
+            col1, col2 = st.columns(2)
+            with col1:
+                if st.button('👍 Yes'):
+                    st.success('Thank you for your feedback!')
+            with col2:
+                if st.button('👎 No'):
+                    st.error('Thank you for your feedback. We will strive to improve our recommendations.')
+
 def show_tesda_page():
     st.title('TESDA Lesson Plan Generator for PWD Education')
     with st.form(key='lesson_plan_form'):
@@ -131,6 +140,15 @@ def show_tesda_page():
                 callback_manager=CallbackManager([stream_handler])
             )
             generate_lesson_plan(course, disability, llm)
+
+            st.write("Is the recommended lesson plan appropriately tailored to the course and the specific disability?")
+            col1, col2 = st.columns(2)
+            with col1:
+                if st.button('👍 Yes'):
+                    st.success('Thank you for your feedback!')
+            with col2:
+                if st.button('👎 No'):
+                    st.error('Thank you for your feedback. We will strive to improve our recommendations.')
 
 
 st.sidebar.title('Navigation')

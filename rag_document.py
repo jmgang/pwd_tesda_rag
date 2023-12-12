@@ -1,7 +1,6 @@
 import re
-from pydantic import BaseModel, Field
 
-class RagDocument(BaseModel):
+class RagDocument():
     id: str
     distance: float
     document: str

@@ -1,11 +1,10 @@
 from typing import List, Optional
-from pydantic import Field
 from langchain.docstore.document import Document
 from langchain.load.serializable import Serializable
 
 
 class TesdaRegulationPDF(Serializable):
-    name: str = Field(...)
+    name: str = ''
     documents: List[Document]
     toc_page: Optional[int]
     core_pages: List[int] = []
