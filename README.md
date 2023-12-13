@@ -20,7 +20,7 @@ To run this project locally, you'll need to install the required dependencies:
 
 ```sh
 pip install -r requirements.txt
-'''
+```
 
 
 ## Usage
@@ -29,7 +29,7 @@ To start the Streamlit application, navigate to the project directory and run:
 
 ```sh
 streamlit run app.py
-'''
+```
 
 ## License
 
