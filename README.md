@@ -1,4 +1,4 @@
-# TESDA Course Recommender for PWDs
+# TESDA Course Recommender for PWDs and Lesson Generator for TESDA
 
 ## Project Overview
 
